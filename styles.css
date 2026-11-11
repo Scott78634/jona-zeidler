@@ -60,6 +60,10 @@ section { padding: 1.5rem 0; border-top: 1px solid var(--line); }
   margin: 0.5rem 0;
 }
 .button:hover { filter: brightness(1.1); }
+.subscribe-form { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin: 0.75rem 0; }
+.subscribe-form input[type="email"] { flex: 1 1 260px; padding: 0.7rem 0.9rem; border: 1px solid var(--line); border-radius: 4px; background: var(--navy-2); color: var(--ink); font: inherit; }
+.subscribe-form input[type="submit"] { background: var(--gold); color: #1a1206; font-weight: bold; border: none; padding: 0.7rem 1.2rem; border-radius: 4px; cursor: pointer; font: inherit; }
+.subscribe-form input[type="submit"]:hover { filter: brightness(1.1); }
 .small { color: var(--muted); font-size: 0.9rem; }
 .author {
   display: grid;
